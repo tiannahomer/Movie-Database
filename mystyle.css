@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+body {
+		background-color:#787575;	
+	}
+.container_50 {  
+  background-color: #f2f2f2;
+  width : 50%;
+  margin: 0px auto; 
+  
+}
+.container_70 {  
+  background-color: #f2f2f2;
+  width : 70%;
+  margin: 0px auto; 
+}
+.container_80 {  
+  background-color: #f2f2f2;
+  width : 80%;
+  margin: 0px auto; 
+}
+.container_80:after {  
+  content: "";
+  display: table;
+  clear: both;
+}
+.inner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.inner{
+	padding: 20px;  
+	word-wrap    : break-word;
+	overflow-wrap: break-word;  
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-35 {
+  float: left;
+  width: 35%;
+  margin-top: 6px;
+}
+.col-50 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;  
+}
+.col-65 {
+  float: left;
+  width: 65%;
+  margin-top: 6px;
+}
+.col-75 {
+	float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#title{
+		margin-left : 25px ;
+		font-size : 25px;
+  		color : white;
+		margin: 0px auto;			
+		background-color: #9999f9;			
+		padding : 20px;
+		text-shadow: 2px 2px 4px #000000;
+	}
+#title a{
+	text-decoration : none;
+	color : white;
+}
+.pagination {
+   margin : 50px auto;  
+   width : 100%;	   
+   font-family: Arial, Helvetica, sans-serif;
+   text-align : center;
+}
+.pagination {
+   margin : 50px auto;  
+   width : 100%;	   
+   font-family: Arial, Helvetica, sans-serif;
+   text-align : center;
+}
+.pagination a {
+  color: black;  
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input:focus {
+	background-color: #F6F9CD;
+	outline: none !important;
+}
+textarea:focus { 
+    outline: none !important;
+    background-color: #F6F9CD;
+}
+select:focus { 
+    outline: none !important;
+    background-color: #F6F9CD;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+table, th, td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+#comments{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;		
+	width : 90%;
+	float: none;
+	}
+#comments:hover {
+	background-color: #45a049;
+	}
+table{
+	margin: 5px auto;			
+	width : 100%;
+	background-color: #f2f2f2;		
+	}
+table,th,td {
+	text-align: left;
+	padding : 10px;
+	}
+.cardview{
+	float : left;
+	width : 25%;
+	height : 375px;
+	overflow : hidden;
+	padding : 5px;
+}
+ .comm_title{
+  background-color: #00b3b3;
+  color: white; 
+  width : 95%;
+  margin : 0px auto; 
+  padding: 5px 20px;
+  /*border-radius: 5px 5px 0px 0px;  */
+  }	
+.comm{
+  background-color: #ffffff;
+  color: #696969;
+  padding: 12px 20px;
+  border: none;
+  /* border-radius: 0px 0px 5px 5px; */
+  width : 95%;
+  margin : 0px auto;  
+  }
+ 
+.bar{
+  background-color: lightgray;
+  color: #595959;
+  padding: 12px 30px;
+  border: none;
+  width : 100%;
+  margin-top : 10px;
+  font-family: Arial, Helvetica, sans-serif;  
+  width : 50%;
+  margin : 0px auto;
+	}
+.cardview img {
+	width: 100%;
+	height: 100%;
+	}
+#whiterow{
+		background-color:#CDCDF9;		
+		}
+#footer {
+		font-size : 12px;
+}
+.radios{
+		background-color: white;		
+		padding : 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;		
+	}
+.center a{
+		display : block;		
+		padding : 16px 0px;
+		text-decoration : none;
+		transition : background-color .3s;
+		border : 1px solid #CCC;		
+		padding-left : 25px;
+		margin : 10px 0;
+		font-size : 20px;
+		border-radius: 5px;
+		color : #363535;
+    	background-color: white;		
+		}	
+.center a:hover{		
+		background-color:#4CAF50;
+		color : white;	
+		}	  
+.center {		
+		background-color: #f2f2f2;
+		margin: 0px auto;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 2px;
+		padding-bottom: 15px;				
+		color : #787575;
+		box-sizing: border-box;
+		}	
